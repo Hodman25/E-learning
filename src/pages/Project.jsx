@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Courses() {
+function Project() {
     return <>
         <div>
-            
+            <h1>project</h1>
         </div>
     
     </>
 }
 
-export default Courses;
+export default Project;
