@@ -9,6 +9,18 @@ import Javascript from './pages/Javascript';
 import Github from './pages/Github';
 import ReactPage from './pages/React';
 import Python from './pages/Python';
+import Tags from './components/courseCMPNT/Tags';
+import HtmlLinks from './pages/HtmlLinks';
+import Iframe from './pages/Iframe';
+import Function from './components/courseCMPNT/Function';
+import Switch from './components/courseCMPNT/Switch';
+import Loop from './components/courseCMPNT/Loop';
+import Hooks from './components/courseCMPNT/Hooks';
+import ReactComponent from './components/courseCMPNT/ReactComponent';
+import Props from './components/courseCMPNT/Props';
+import Variable from './components/courseCMPNT/Variable';
+import Poop from './components/courseCMPNT/Poop';
+import Slice from './components/courseCMPNT/Slice';
 
 function App() {
   return  <div className='bg-gradient-to-r from-[#070224] via-[#180239] to-[#210F37] text-white'>
@@ -23,6 +35,18 @@ function App() {
         <Route path='/github' element={<Github />} />
         <Route path='/react' element={<ReactPage />} />
         <Route path='/python' element={<Python />} />
+        <Route path='/courses/htmlCss/tags' element={<Tags />} />
+        <Route path='/courses/htmlCss/links' element={<HtmlLinks />} />
+        <Route path='/courses/htmlCss/iframe' element={<Iframe />} />
+        <Route path='/courses/javascript/function' element={<Function />} />
+        <Route path='/courses/javascript/switch' element={<Switch />} />
+        <Route path='/courses/javascript/loops' element={<Loop />} />
+        <Route path='/courses/react/hooks' element={<Hooks />} />
+        <Route path='/courses/react/component' element={<ReactComponent />} />
+        <Route path='/courses/react/props' element={<Props />} />
+        <Route path='/courses/python/variable' element={<Variable />} />
+        <Route path='/courses/python/poop' element={<Poop />} />
+        <Route path='/courses/python/slice' element={<Slice />} />
       </Routes>
     </div>
   
