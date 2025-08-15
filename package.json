@@ -13,11 +13,11 @@
     "@reduxjs/toolkit": "^2.8.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-<<<<<<< HEAD
+
     "react-player": "^3.3.1",
-=======
+
     "react-hook-form": "^7.62.0",
->>>>>>> 676c02a94032bf82c774bad6fef7003095657aaf
+
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.8.0",
     "zod": "^4.0.17"
