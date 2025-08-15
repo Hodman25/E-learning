@@ -10,6 +10,5 @@ import YouTubevideo from './components/YouTubevideo.jsx'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <App />
-  <YouTubevideo></YouTubevideo>
   </BrowserRouter>,
 )

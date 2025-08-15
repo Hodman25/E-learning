@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 function Project() {
     return <>
-<<<<<<< HEAD
 
        <div className='pt-20 text-center'>
         <h1 className='text-5xl font-semibold mt-4'>Projectes</h1>
@@ -79,13 +78,4 @@ function Project() {
 }
 
 export default Project
-=======
-        <div>
-            <h1></h1>
-        </div>
-    
-    </>
-}
 
-export default Project;
->>>>>>> 676c02a94032bf82c774bad6fef7003095657aaf
