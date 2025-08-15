@@ -2,11 +2,12 @@ import React from 'react';
 
 function Project() {
     return <>
-        <div className='pt-40'>
-            <h1>hello</h1>
-        </div>
+       <div>
+        <h1>Projectes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam.</p>
+       </div>
     
-    </>
+      </>
 }
 
-export default Project;
+export default Project
