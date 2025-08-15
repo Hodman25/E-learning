@@ -47,7 +47,7 @@ function Home() {
         <div className='w-full  text-center mt-40'>
      <img  className='w-[1000px] h-[400px] text-center mt-8 ml-14 mr-8 '  src="https://rock-the-prototype.com/wp-content/uploads/2023/01/Coden-im-Team-Warum-gemeinsam-programmieren-so-effektiv-ist_hochaufloesend_RTP.jpg" alt="" />
        </div>
-   
+        
 
 
     <div className='w-full h-[400px]  text-black flex'>
