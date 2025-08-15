@@ -1,11 +1,15 @@
 import React from 'react';
+import Card from '../components/courseCMPNT/card';
+import Data from '../Data';
 
 function Courses() {
     return <>
-        <div>
-            
-        </div>
+        <div className='h-screen'>
+
+           <Card />
+
     
+        </div>
     </>
 }
 
