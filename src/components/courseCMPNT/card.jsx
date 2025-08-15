@@ -2,8 +2,12 @@ import React from 'react';
 import Button from './Button';
 import { Link } from 'react-router-dom';
 function Card() {
-    return <div className='pt-32'>
-        <div className="grid sm:grid-cols-3 grid-cols-1 justify-stretch ">
+    return <div className='pt-20 '>
+            <div className="text-center mb-20">
+            <h1 className='text-6xl mt-20 font-bold text-[#C30E59] '>Our Courses</h1>
+            <p className='w-[550px] text-gray-300 mt-8 sm:ml-96 '>Discover courses designed to boost your skills and knowledge. Learn at your own pace with practical lessons, hands-on exercises, and real-world projects. Start learning today and take the next step in your career!</p>
+            </div>
+        <div className="grid sm:grid-cols-3 grid-cols-1 justify-stretch overflow-hidden ">
 
         <div className='w-[400px] h-[430px] bg-white/5  shadow-[#065084] rounded-lg shadow-lg p- m-4 t-20'>
             <img className='w-full h-52' src='https://i.pinimg.com/736x/05/6a/5b/056a5b666cf72d5fafd9c9880e686962.jpg' alt="" />
