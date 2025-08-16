@@ -10,24 +10,15 @@ function Header() {
     }
     return <>
         <div className='flex justify-around w-full px-0 py-5 bg-white/5 backdrop-blur-sm fixed top-0 left-0 right-0 z-10 text-white overflow-hidden'>
-            <h1 className='text-4xl font-serif font-semibold '>Skill<span className='text-[#C30E59] '>Hub</span></h1>
-<<<<<<< HEAD
-
-            <ul className='flex gap-10  text-2xl  '>
-=======
+         <Link to='/'>  <h1 className='text-4xl font-serif font-semibold '>Skill<span className='text-[#C30E59] '>Hub</span></h1></Link> 
             <i onClick={toggleBar} className='fa-solid fa-bars sm:hidden text-3xl '></i>
             <div className="sm:flex items-center gap-10 hidden " >
 
             <ul className='sm:flex gap-10  text-2xl  '>
->>>>>>> ba793937756cf609c608590e8f5c77ab5ab163ad
                 <Link to='/'><li>Home</li></Link>
                 <Link to='/courses'><li>Courses</li></Link>
                 <Link to='/project'><li>Project</li></Link>
             </ul>
-<<<<<<< HEAD
-            <button className='bg-[#C30E59] text-white text-2xl px-6 py-2 rounded-2xl mt-2'>Log In</button>
-           </div>
-=======
          <Link to='/login'><button className='bg-[#C30E59] hover:bg-[#b2064e] text-white text-2xl px-6 py-2 rounded-2xl mt-2  sm:block hidden'>LogIn</button></Link> 
             </div>
 
@@ -41,10 +32,9 @@ function Header() {
                 <Link to='/courses'><li className='mt-3'>Courses</li></Link>
                 <Link to='/project'><li className='mt-2'>Project</li></Link>
             </ul>
-            <button className='bg-[#C30E59] hover:bg-[#b2064e]  text-white text-2xl px-6 py-2 rounded-2xl   sm:block '>Log In</button>
+         <Link to='login'> <button className='bg-[#C30E59] hover:bg-[#b2064e]  mt-3 text-white text-2xl px-6 py-2 rounded-2xl   sm:block '>Log In</button></Link>
             </div>
            
->>>>>>> ba793937756cf609c608590e8f5c77ab5ab163ad
         
     </>
 }
