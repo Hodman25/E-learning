@@ -21,6 +21,7 @@ import Props from './components/courseCMPNT/Props';
 import Variable from './components/courseCMPNT/Variable';
 import Poop from './components/courseCMPNT/Poop';
 import Slice from './components/courseCMPNT/Slice';
+import LogIn from './pages/LogIn';
 
 function App() {
   return  <div className='bg-gradient-to-r from-[#070224] via-[#180239] to-[#210F37] text-white'>
@@ -47,6 +48,7 @@ function App() {
         <Route path='/courses/python/variable' element={<Variable />} />
         <Route path='/courses/python/poop' element={<Poop />} />
         <Route path='/courses/python/slice' element={<Slice />} />
+        <Route path='/login' element={<LogIn />} />
       </Routes>
     </div>
   
