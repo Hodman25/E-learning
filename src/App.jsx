@@ -9,6 +9,17 @@ import Javascript from './pages/Javascript';
 import Github from './pages/Github';
 import ReactPage from './pages/React';
 import Python from './pages/Python';
+
+
+import Html from './pages/Html';
+import CSS from './pages/CSS';
+import JavascriptA from './pages/JavascriptA';
+import ReactA from './pages/ReactA';
+import GitGithup from './pages/GitGithup';
+import PythonA from './pages/PythonA';
+
+
+
 import Tags from './components/courseCMPNT/Tags';
 import HtmlLinks from './pages/HtmlLinks';
 import Iframe from './pages/Iframe';
@@ -36,6 +47,17 @@ function App() {
         <Route path='/github' element={<Github />} />
         <Route path='/react' element={<ReactPage />} />
         <Route path='/python' element={<Python />} />
+
+       <Route path='/project/Html' element={<Html/>}/>
+       <Route path='/project/CSS' element={<CSS/>}/>
+       <Route path='/project/JavascriptA' element={<JavascriptA/>}/>
+       <Route path='//project/ReactA' element={<ReactA/>}/>
+       <Route path='/project/GitGithub' element={<GitGithup/>}/>
+       <Route path='/project/PythonA' element={<PythonA/>}/>
+
+     
+
+
         <Route path='/courses/htmlCss/tags' element={<Tags />} />
         <Route path='/courses/htmlCss/links' element={<HtmlLinks />} />
         <Route path='/courses/htmlCss/iframe' element={<Iframe />} />

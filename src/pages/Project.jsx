@@ -1,15 +1,16 @@
 import React from 'react';
-import YouTubevideo from '../components/YouTubevideo';
+
 import { Link } from 'react-router-dom';
 
 function Project() {
     return <>
 
-       <div className='pt-20 text-center'>
+
+       <div className='sm:pt-20 pt-28 text-center'>
         <h1 className='text-5xl font-semibold mt-4'>Projectes</h1>
-        <p>Explore hands-on projects to apply your coding skills and grow your portfolio</p>
+        <p className='mt-3'>Explore hands-on projects to apply your coding skills and grow your portfolio</p>
        </div>
-       <div className='flex ml-32 gap-8 mt-8'>
+       <div className='sm:flex sm:ml-32 ml-14 gap-10 sm:gap-8 mt-8'>
         <div className='w-[290px] h-[370px] bg-white/5 shadow-lg shadow-white/10'>
          <img className='h-[200px] w-[290px] ' src="https://i.pinimg.com/736x/47/65/fb/4765fb94fa56e591815dba8c43d9c5fb.jpg" alt="" />
          <div className='flex gap-5 mt-2'>
@@ -17,7 +18,7 @@ function Project() {
          <p className='text-yellow-400 ml-32 text-2xl'>Free</p>
          </div>
          <p className='mt-4'>Build and learn with real projects</p>
-   <Link to='/projet/YouTeVideo'> <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button> </Link> 
+   <Link to='/project/Html'> <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button> </Link> 
         </div>
         {/* 2 */}
            <div className='w-[290px] h-[370px] bg-white/5 shadow-lg shadow-white/10'>
@@ -27,7 +28,7 @@ function Project() {
          <p className='text-yellow-400 ml-32 text-2xl'>Free</p>
          </div>
          <p className='mt-4'>Build and learn with real projects</p>
-         <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button>
+   <Link to='/project/CSS' > <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button></Link> 
         </div>
         {/* 3 */}
            <div className='w-[290px] h-[370px] bg-white/5 shadow-lg shadow-white/10'>
@@ -37,19 +38,19 @@ function Project() {
          <p className='text-yellow-400 ml-20 text-2xl'>Free</p>
          </div>
          <p className='mt-4'>Build and learn with real projects</p>
-         <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button>
+<Link to='/project/JavascriptA'> <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button></Link> 
         </div>
        </div>
         {/* sect2 */}
-       <div className='flex mt-6 ml-32 gap-8'>
+       <div className='sm:flex mt-9 sm:mt-6 ml-16 sm:ml-32 gap-8'>
            <div className='w-[290px] h-[370px] bg-white/5 shadow-lg shadow-white/10'>
          <img className='h-[200px] w-[290px]' src="https://i.pinimg.com/736x/e0/ad/d5/e0add58005eb5130afedda3635639e4a.jpg" alt="" />
          <div className='flex gap-5 mt-2'>
          <h1 className='text-3xl font-semibold'>React</h1>
          <p className='text-yellow-400 ml-32 text-2xl'>Free</p>
          </div>
-         <p>Build and learn with real projects</p>
-         <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button>
+         <p className='mt-4'>Build and learn with real projects</p>
+  <Link to='/project/ReactA'><button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button></Link>  
         </div>
         {/* 2 */}
          <div className='w-[290px] h-[370px] bg-white/5 shadow-lg shadow-white/10'>
@@ -58,8 +59,8 @@ function Project() {
          <h1 className='text-3xl font-semibold'> Git&GitHup</h1>
          <p className='text-yellow-400 ml-14 text-2xl'>Free</p>
          </div>
-         <p>Build and learn with real projects</p>
-         <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button>
+         <p className='mt-4'>Build and learn with real projects</p>
+ <Link to='/project/GitGithub'> <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button></Link>
         </div>
         {/* 3 */}
 
@@ -68,14 +69,17 @@ function Project() {
          <div className='flex gap-5 mt-2'>
          <h1 className='text-3xl font-semibold'>Python</h1>
          <p className='text-yellow-400 ml-28 text-2xl'>Free</p>
+      </div>
+      <p className='mt-4'>Build and learn with real projects</p>
+  <Link to='/project/PythonA'> <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button> </Link>  
+  
          </div>
-         <p>Build and learn with real projects</p>
-         <button className='text-xl font-semibold bg-yellow-500 px-5 py-2 rounded-lg mt-6 ml-6 text-black'>Access Lesson</button>
-        </div>
-       </div>
-      
+         
+   </div>
+       
       </>
 }
 
 export default Project
+
 
