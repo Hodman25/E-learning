@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from './Button';
+import { Link } from 'react-router-dom';
 
 function ReactComponent(props) {
     return (
@@ -11,7 +13,9 @@ function ReactComponent(props) {
         allow='autoplay' ></iframe>
 
         </div>
-
+ <div className="sm:ml-[55%]">
+       <Link to='/courses/react/props'> <Button title='Next Lesson' px='px-10' text='text-2xl font-semibold bg-violet-800 ' /></Link>
+        </div>
         </div>
         </div>
     );
