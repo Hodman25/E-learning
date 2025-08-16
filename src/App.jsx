@@ -41,18 +41,7 @@ function App() {
        <Route path='/project/GitGithub' element={<GitGithup/>}/>
        <Route path='/project/PythonA' element={<PythonA/>}/>
 
-        {/* <Route path='/courses/htmlCss/tags' element={<Tags />} />
-        <Route path='/courses/htmlCss/links' element={<HtmlLinks />} />
-        <Route path='/courses/htmlCss/iframe' element={<Iframe />} />
-        <Route path='/courses/javascript/function' element={<Function />} />
-        <Route path='/courses/javascript/switch' element={<Switch />} />
-        <Route path='/courses/javascript/loops' element={<Loop />} />
-        <Route path='/courses/react/hooks' element={<Hooks />} />
-        <Route path='/courses/react/component' element={<ReactComponent />} />
-        <Route path='/courses/react/props' element={<Props />} />
-        <Route path='/courses/python/variable' element={<Variable />} />
-        <Route path='/courses/python/poop' element={<Poop />} />
-        <Route path='/courses/python/slice' element={<Slice />} /> */}
+     
 
       </Routes>
     </div>

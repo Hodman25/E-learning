@@ -3,12 +3,12 @@ import React from 'react';
 function ReactA() {
     return <>
        
-        <div className='mt-24 text-center'>
+        <div className=' mt-32 sm:mt-24 text-center'>
         <h1 className='text-4xl font-semibold'> React Projectes</h1>
         <p className='mt-3'> Build dynamic user interfaces with powerful React projects.</p>
         </div>
 
-     <div className='flex gap-8 ml-28 mt-4'>
+     <div className='sm:flex gap-8 ml-14 sm:ml-28 mt-4'>
      <div className=" w-[290px] h-[390px] bg-white/5 shadow-lg shadow-white/10">
      <iframe className="w-[290px] h-[250PX] objrct-cover"  src="https://www.youtube.com/embed/VMZ7lcSdVnY?si=SXOgtdxnouTPI11K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
