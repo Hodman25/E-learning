@@ -8,10 +8,10 @@ function HtmlCard(props) {
             <h1 className='text-5xl mt-20 font-bold text-[#C30E59] '>Html Course</h1>
             </div>
 
-        <div className='mt-32 ml-10 grid sm:grid-cols-3 grid-cols-1  '>
+        <div className='mt-32 sm:ml-10 ml-3 grid sm:grid-cols-3 grid-cols-1 sm:gap-0 gap-6 '>
             {/* tags */}
-            <div className="w-96 h-[400px]  bg-white/5 shadow-sm shadow-blue-900  ">
-        <img className='h-60 w-full ' src="https://i.pinimg.com/1200x/86/f1/95/86f1954579b3ddaec29a1932edeb669c.jpg" alt="" />
+            <div className="sm:w-96 w-[360px] h-[400px] hover:scale-[1.1] duration-500  bg-white/5 shadow-sm  shadow-blue-900 sm:mb-0 mb-6 ">
+        <img className='h-60 w-full  ' src="https://i.pinimg.com/1200x/86/f1/95/86f1954579b3ddaec29a1932edeb669c.jpg" alt="" />
 
             <h1 className='text-3xl text-bold mt-3 ml-2'>Html Tags</h1>
             <p className='pt-3 ml-2'>The html tag is the container for all other HTML elements</p>
@@ -21,7 +21,7 @@ function HtmlCard(props) {
             </div>
             {/* links */}
         
-            <div className="w-96 h-[400px]  bg-white/5 shadow-sm shadow-blue-900  ">
+            <div className="sm:w-96 w-[360px] h-[400px]  bg-white/5 shadow-sm shadow-blue-900  hover:scale-[1.1] duration-500 sm:mb-0 mb-6 ">
         <img className='h-60 w-full ' src="https://i.pinimg.com/736x/01/c5/3a/01c53a8a5fca75f0ce72eb97d465be81.jpg" alt="" />
 
             <h1 className='text-3xl text-bold mt-3 ml-2'>Html Links</h1>
@@ -33,7 +33,7 @@ function HtmlCard(props) {
 
             {/* iframes */}
 
-            <div className="w-96 h-[400px]  bg-white/5 shadow-sm shadow-blue-900  ">
+            <div className="sm:w-96 w-[360px] h-[400px]  bg-white/5 shadow-sm shadow-blue-900  hover:scale-[1.1] duration-500 sm:mb-0 mb-6 ">
         <img className='h-60 w-full ' src="https://i.pinimg.com/736x/90/44/a6/9044a634e09b2a633ff73efad0fdf470.jpg" alt="" />
 
             <h1 className='text-3xl text-bold mt-3 ml-2'>Html Iframes</h1>

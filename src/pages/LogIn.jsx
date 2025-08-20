@@ -31,10 +31,10 @@ function LogIn(props) {
     return (
         <div className='mb-20 mt-32'>
             <form onSubmit={handleSubmit(onSend)} >
-                <div className=' w-[400px] sm:w-[450px] h-[580px] bg-white/10 backdrop-blur-lg rounded-lg shadow-lg mx-auto mt-20 p-10 overflow-hidden'>
+                <div className=' w-[400px] sm:w-[450px] h-[580px] bg-blue-800 text-white rounded-lg shadow-lg mx-auto mt-20 p-10 overflow-hidden'>
                     <div className=' gap-4 items-center mt-10'>
-                        <label className='text-2xl text-gray-300' htmlFor="name">Name:</label>
-                        <input className='w-60 h-10 pl-4 rounded-md ml-3 bg-transparent/45' type="text"  id="name" {...register("name")} placeholder='Enter your name' />
+                        <label className='text-2xl' htmlFor="name">Name:</label> <br />
+                        <input className='w-60 h-10 pl-4 rounded-md ml- bg-transparent/45' type="text"  id="name" {...register("name")} placeholder='Enter your name' />
                 {errors.name && (
                     <p className='text-red-500 mt-2 '>{errors.name.message} </p>
                 )}
@@ -42,7 +42,7 @@ function LogIn(props) {
                     </div>
 
                     <div className=' gap-4 items-center mt-6'>
-                        <label className='text-2xl text-gray-300' htmlFor="email">Email:</label>
+                        <label className='text-2xl' htmlFor="email">Email:</label><br />
                         <input className='w-60 h-10 pl-4 rounded-md bg-transparent/45' type="email"  id="email" {...register("email")} placeholder='Enter your Email' />
                   {errors.email && (
                     <p className='text-red-500 mt-1'>{errors.email.message} </p>
@@ -50,7 +50,7 @@ function LogIn(props) {
                     </div>
 
                     <div className='gap-4 items-center mt-6'>
-                        <label className='text-2xl text-gray-300' htmlFor="password">password:</label>
+                        <label className='text-2xl text-gray-300' htmlFor="password">password:</label><br />
                         <input className='w-60 h-10 pl-4 rounded-md bg-transparent/45  ' type="password"  id="password" {...register("password")} placeholder='Enter your password' />
                    {errors.password && (
                     <p className='text-red-500 mt-1'>{errors.password.message} </p>

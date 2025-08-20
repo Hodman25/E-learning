@@ -33,11 +33,16 @@ import Variable from './components/courseCMPNT/Variable';
 import Poop from './components/courseCMPNT/Poop';
 import Slice from './components/courseCMPNT/Slice';
 import LogIn from './pages/LogIn';
+import Theme from './components/Theme';
+import Foter from './components/Foter';
 
 function App() {
-  return  <div className='bg-gradient-to-r from-[#070224] via-[#180239] to-[#210F37] text-white'>
-      <Header/>
 
+  return  <div >
+      <Header/>
+      <div className="mt-10">
+        <Theme />
+      </div>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/courses' element={<Courses/>} />
@@ -72,6 +77,8 @@ function App() {
         <Route path='/courses/python/slice' element={<Slice />} />
         <Route path='/login' element={<LogIn />} />
       </Routes>
+
+      <Foter />
     </div>
   
 

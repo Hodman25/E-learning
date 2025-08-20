@@ -4,7 +4,7 @@ import Data from '../Data';
 
 function Courses() {
     return <>
-        <div className='h-screen'>
+        <div className=''>
 
            <Card />
 

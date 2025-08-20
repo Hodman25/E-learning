@@ -26,7 +26,7 @@ export const ValidationSchema = z.object({
     text: z
         .string()
         .min(10, "Text must be at least 10 characters long")
-        .max(100, "Text must be at most 100 characters long")
+        .max(800, "Text must be at most 100 characters long")
         .nonempty("Text cannot be empty")
 
 

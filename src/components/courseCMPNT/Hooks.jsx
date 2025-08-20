@@ -13,7 +13,7 @@ function Hooks(props) {
         allow='autoplay' ></iframe>
 
         </div>
- <div className="sm:ml-[55%]">
+ <div className="sm:ml-[55%] ml-32 ">
        <Link to='/courses/react/component'> <Button title='Next Lesson' px='px-10' text='text-2xl font-semibold bg-violet-800 ' /></Link>
         </div>
         </div>
