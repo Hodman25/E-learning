@@ -31,7 +31,7 @@ function LogIn(props) {
     return (
         <div className='mb-20 mt-32'>
             <form onSubmit={handleSubmit(onSend)} >
-                <div className=' w-[400px] sm:w-[450px] h-[580px] bg-blue-800 text-white rounded-lg shadow-lg mx-auto mt-20 p-10 overflow-hidden'>
+                <div className=' w-[400px] sm:w-[450px] h-[700px] bg-blue-800 text-white rounded-lg shadow-lg mx-auto mt-20 p-10 overflow-hidden'>
                     <div className=' gap-4 items-center mt-10'>
                         <label className='text-2xl' htmlFor="name">Name:</label> <br />
                         <input className='w-60 h-10 pl-4 rounded-md ml- bg-transparent/45' type="text"  id="name" {...register("name")} placeholder='Enter your name' />
