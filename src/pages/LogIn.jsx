@@ -49,14 +49,15 @@ function LogIn(props) {
                   ) }
                     </div>
 
-                    <div className='gap-4 items-center mt-6'>
+                   {/* <div className='gap-4 items-center mt-6'>
                         <label className='text-2xl text-gray-300' htmlFor="password">password:</label><br />
                         <input className='w-60 h-10 pl-4 rounded-md bg-transparent/45  ' type="password"  id="password" {...register("password")} placeholder='Enter your password' />
                    {errors.password && (
                     <p className='text-red-500 mt-1'>{errors.password.message} </p>
 
                    )}
-                    </div>
+                    </div> */}
+              
 
                     <div className="mt-10 sm:ml-10">
                         <textarea className='w-80 h-32 bg-transparent/20 pl-5 pt-3 text-2xl ' placeholder='Text...' name="" id="text" {...register("text")} ></textarea>
